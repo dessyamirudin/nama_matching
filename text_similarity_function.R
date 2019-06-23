@@ -1,7 +1,6 @@
 #measuring similarity between customer
 
 #set working directory
-# setwd("C:/Users/damiru01/OneDrive - Dentsu Aegis Network/Documents/Toyota/Practicing Name Matching")
 
 #load library
 library(tictoc)
@@ -35,6 +34,7 @@ similar_text = function(input_file){
   return(input_file)
 }
 
+#sample functionality of the function
 #reading data
 data_file = read.csv("file_text.csv",header=TRUE)
 input_file = as.character(data_file[1:100,1])
